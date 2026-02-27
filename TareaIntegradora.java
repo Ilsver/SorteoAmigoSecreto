@@ -18,6 +18,11 @@ public class TareaIntegradora{
         };
         for(int i = 0; i < menu.length; i++){
             System.out.println(menu[i]);
+            System.out.println("Ingrese un número del menú: ");
+            int menus = lector.nextInt();
+            if(menus == 1){
+                System.out.println("Hola");
+            }
         }
     }
 }
